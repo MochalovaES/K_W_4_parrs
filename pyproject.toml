@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kw-4-"
+version = "0.1.0"
+description = ""
+authors = ["Катя <mochalova.es@mail.ru>"]
+readme = "README.md"
+packages = [{include = "kw_4_"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
